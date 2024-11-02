@@ -1,0 +1,634 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    text-align: center;
+}
+header{
+    background-image: url(../photo/start1.jpg);
+    max-width:auto;
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    margin: auto;
+    text-align: center;
+}
+ul{
+margin : 0;
+padding : 0;
+list-style: none;
+
+}
+.container{
+max-width: auto;
+padding: 28px 15px;
+ margin: auto;
+
+}
+.nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.menu{
+display: flex;
+gap: 20px;
+}
+.menu-item{
+    padding-right: 18px;
+}
+.menu-link{
+    color: #FFFFFF;
+   text-decoration: none;
+   font-size: clamp(20px, 2.08vw ,36px);
+   line-height: clamp(15px, 2.08vw ,33px);
+   font-family: "Ysabeau", sans-serif;
+}
+.inf{
+    font-family: "Ysabeau", sans-serif;
+    color: #FFFFFF;
+    font-size: clamp(20px, 2.08vw ,40px); 
+    text-align: center;
+}
+p{
+    font-size: clamp(24px, 2.08vw ,36px);  
+    font-family: "Ysabeau", sans-serif;
+    color: #8B4A48;
+    margin-top: 135px;
+}
+m{
+    font-family: "Ysabeau SC", sans-serif;
+    margin-top: 14px 0 0 14px;
+}
+k{
+    font-size: clamp(20px, 2.08vw ,40px);   
+    font-family: "WindSong", cursive;  
+    margin-bottom: 92px;
+}
+
+.record-btn{
+    text-decoration: none;
+    font-family: "Ysabeau", sans-serif;
+    color: #FFFFFF;
+    font-size: clamp(20px, 1.87vw ,36px); 
+    line-height: clamp(16px, 1.51vw ,29px);
+   background-color: #8B4A48;
+   text-align: center; 
+   border-radius: 30px; 
+   display: inline-block;
+   margin-top: 80px;
+   padding: clamp(18px, 1.14vw ,22px) clamp(40px, 4.16vw ,80px);
+}
+
+.record-btn:hover{
+    background-color: #cd716f;
+    transition: 0.5s;
+}
+
+
+.general{
+    background-color:#8B4A48;
+    max-width:auto;
+    font-family: "Ysabeau", sans-serif;
+    color: #FFFFFF;
+    font-size: clamp(20px, 2.08vw ,40px);
+    line-height: clamp(40px, 6vw, 64px);
+    text-align: center;
+}
+.title{
+    font-family: "Ysabeau", sans-serif;
+    color: #FFFFFF;
+    font-size: clamp(20px, 2.08vw ,40px);
+    line-height: clamp(27px, 2.81vw ,54px); 
+    font-weight: 500;
+}
+hr{
+    max-width: clamp(112px, 19vw ,364px);
+}
+h,f{
+    font-family: "WindSong", cursive;
+}
+.services{
+    background-color:#8B4A48;
+    align-items: center;
+    font-weight: 400;
+    font-family: "Ysabeau", sans-serif;
+    color: #FFFFFF;
+    font-size: 36px; 
+    line-height: 64px;
+    text-align: center; 
+    padding: 45px 0 63px;
+}
+.man {
+    background-image: url(../photo/fonserv.png);
+    background-position: center;
+    height: 100%;
+    max-width: 1301px;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    border-radius: clamp(20px, 2.56vw ,30px);
+    align-items: center;  
+    margin: auto;  
+}
+
+.service-title {
+    font-size: clamp(20px, 2.08vw ,40px);
+    line-height: clamp(23px, 2.4vw ,46px);
+    font-weight: 500;
+    padding: clamp(10px, 2.34vw ,45px) 0 clamp(20px, 5.93vw ,114px) 0;
+    margin: 0;
+    text-align: center  ;
+}
+
+
+.service-cards{
+    display: flex;
+    gap: 40px;
+    overflow: hidden;
+    overflow-x: auto;
+    margin: 0px 15px clamp(50px, 4.74vw ,91px);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #8B4A48;
+    border-radius: clamp(20px, 2.56vw ,30px);
+    margin-bottom: 10px;
+}
+
+.card:hover{
+    background-color: #cd716f;
+    transition: 0.5s;
+}
+
+.card-info {
+    font-size: clamp(16px, 1.87vw ,36px);
+    line-height: clamp(21px, 2.5vw ,48px);
+    font-weight: 500;
+    text-align: center;
+    width: 317px;
+    margin: 0 auto;
+    padding: 1.15vw 2.08vw 0;
+}
+
+.card-price-info {
+    font-size: clamp(16px, 1.87vw ,36px);
+    line-height: clamp(22px, 2.6vw ,50px);
+    font-weight: 500;
+    text-align: center;
+    max-width: 214px;
+    margin: 0 auto;
+    padding: 10px 0 24px;
+}
+
+.btn{
+   text-decoration: none;
+   font-family: "Ysabeau", sans-serif;
+   color: #FFFFFF;
+   font-size: clamp(20px, 1.87vw ,36px); 
+   line-height: clamp(16px, 1.51vw ,29px);
+   background-color: #8B4A48;
+   text-align: center; 
+   border-radius: 30px; 
+   display: inline-block;
+   margin-top: 0px;
+   padding: clamp(18px, 1.14vw ,22px) clamp(40px, 4.16vw ,80px);
+   margin-bottom: 63px;
+
+}
+
+.btn:hover{
+    background-color: #d19998;
+    transition: 0.5s;
+}
+
+.benefits{
+    background-color:#8B4A48;
+    font-weight: 400;
+    font-family: "Ysabeau", sans-serif;
+    color: #FFFFFF;
+    font-size: clamp(20px, 2.08vw ,40px);
+    text-align: left;
+    flex-wrap: wrap;
+}
+.title2{
+    text-align: center; 
+    font-weight: 400;
+    font-size: clamp(20px, 2.08vw ,40px)
+}
+.comfort{
+    font-size: clamp(20px, 2.08vw ,33px);  
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    border-radius: 30px; 
+    text-align: left; 
+    margin-bottom:130px;
+  
+}
+.title2{
+    margin-bottom: 125px;
+}
+.m1{
+    background-color:rgba(0, 0, 0, 0.125);
+    border-radius: 30px; 
+    padding: clamp(18px, 2vw, 22px) clamp(25px, 3vw, 35px) clamp(30px, 3vw, 80px);
+    height: clamp(155px, 30vh, 220px);
+    width: clamp(260px, 50vw, 550px);
+}
+.m2{
+    background-color:rgba(0, 0, 0, 0.125);
+    border-radius: 30px; 
+    padding: clamp(18px, 3vw, 22px) clamp(25px, 3vw, 35px) clamp(30px, 3vw, 80px);
+    height: clamp(155px, 30vh, 220px);
+    width: clamp(260px, 50vw, 550px);
+}
+.atmosphere{
+    font-size: clamp(20px, 2.08vw ,33px); 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+.m4,.m6{
+    background-color:rgba(0, 0, 0, 0.125);
+    border-radius: 30px; 
+    padding: clamp(18px, 2vw, 22px) clamp(25px, 3vw, 35px) clamp(30px, 3vw, 80px);
+    height: clamp(155px, 30vh, 220px);
+    width: clamp(260px, 50vw, 550px);
+}
+.sales{
+    font-family: "Ysabeau", sans-serif;
+    color: #FFFFFF;
+    font-size: clamp(20px, 2.08vw ,40px);  
+    font-weight: 200;
+    background-image: url(../photo/sales.png);
+    max-width:auto;
+    text-align: left; 
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+.title3{
+    font-weight: 300; 
+    font-size:clamp(20px, 2.08vw ,40px); 
+}
+.custom-line{
+     max-width: 680px;
+     margin-right:0px;
+     margin-top:10px;
+     margin-bottom: 50px;
+}
+.k2,.k3,.k4,.k5,.k6{
+    font-weight: 800;
+}
+
+.contact-iner{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.l02{
+    margin-top: 0;
+    font-size: clamp(20px, 2.08vw ,36px) ;
+    color: #FFFFFF;
+}
+.form-name,.form-number,.form-message{
+    border-radius: 15px; 
+    background-color:#0000003a;
+    height: clamp(50px, 8vw, 77px);
+    width: clamp(300px, 40vw, 450px);
+    box-shadow: none;
+    outline: none;
+    font-size: clamp(20px, 2.08vw ,36px); 
+    font-weight: 150;
+}
+.form-message{
+    height: clamp(70px, 8vw, 100px);
+    width: clamp(300px, 40vw, 450px);
+}
+.buttons{
+    background-color:#8B4A48; 
+    color: #FFFFFF;
+    font-size: clamp(20px, 1.87vw ,36px); 
+    line-height: clamp(16px, 1.51vw ,29px);
+    text-align: center; 
+    margin: auto;
+    border-radius: 30px; 
+    margin-top: 0px;
+    padding: clamp(18px, 1.14vw ,22px) clamp(40px, 4.16vw ,80px);
+    
+}
+.buttons:hover{
+    background-color: #cd716f;
+    transition: 0.5s;
+}
+.Checkbox{
+    font-size: clamp(20px, 1.25vw, 30px);
+}
+.clients{
+    background-color:#0000003a; 
+    font-size:clamp(20px, 2.08vw ,36px); 
+    color: #FFFFFF;
+    font-weight: 150;
+    margin-bottom:30px;
+    border-radius: 30px;
+    line-height: clamp(16px, 2vw, 18px);
+}
+
+.reviews{
+    background-color:#8B4A48;
+    align-items: center;
+    font-weight: 400;
+    font-family: "Ysabeau", sans-serif;
+    color: #FFFFFF;
+    font-size: 36px; 
+    line-height: 64px;
+    text-align: center; 
+    padding: 45px 0 63px;
+}
+
+.reviews-main {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: clamp(20px, 1.56vw ,30px);
+    margin: 0 29.5px;
+    padding: clamp(20px, 8.85vw ,170px) 0;
+}
+
+.reviews-cards {
+
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin: 0 20px;
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+.review-img{
+    max-width: 100%;
+    min-width: 270px;
+    height: auto;
+    object-fit: cover;    
+}
+
+
+.reviewstext {
+    font-family: "Ysabeau", sans-serif;
+    color: #FFFFFF;
+    font-size: clamp(20px, 2.08vw ,40px);
+    line-height: clamp(27px, 2.81vw ,54px); 
+    font-weight: 500;
+}
+
+.contacts{
+    font-family: "Ysabeau", sans-serif;
+    color: #FFFFFF;
+    font-size: clamp(20px, 2.08vw ,40px);
+    text-align: center;  
+    background-size: cover; 
+    background-repeat: no-repeat;
+    align-items: center;  
+    margin: auto;  
+    }
+    p8,p10{
+        font-weight: 800;
+    }
+.continf{
+    font-size: clamp(20px, 2.08vw ,40px);
+    line-height: clamp(48px, 6vw, 64px);
+    text-align: left;  
+
+}
+.number{
+    margin-top: 22px;
+    text-decoration: none;
+    font-family: "Ysabeau", sans-serif;
+    color: #FFFFFF;
+    font-size: clamp(20px, 2.08vw ,40px);
+    line-height: clamp(48px, 6vw, 64px);
+}
+.social{
+    display: flex; 
+   padding-top: 20px;
+    gap: 15px;
+}
+
+
+.menu-btn {
+    display: none;
+}
+
+.sidebar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding-top: 130px;
+  height: 100vh;
+  width: 100%;
+  z-index: 999;
+  background-color: #8B4A48;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(-100%); 
+  transition: 0.4s ease;
+}
+
+.sidebar li{
+    padding-bottom: 30px;
+}
+
+input{
+    color: #FFFFFF;
+}
+
+.sidebar_active {
+  transform: translateY(0); 
+}
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -3;
+    opacity: 0.9;
+}
+
+
+
+   @media (max-width: 1277px) {
+    .comfort, .atmosphere {
+        flex-direction: column;
+    }
+    .title2{
+        margin-bottom:20px;
+    }
+    .comfort{
+        margin-bottom:0px;
+    }
+    .m1,.m2,.m4,.m6{
+        margin-bottom: 20px; 
+    }
+    .logo-img{
+        width: 65px;
+        height: 65px;
+    }
+    .m1,.m2,.m4,.m6{
+        padding-bottom:22px;
+        }
+        .social{
+            width: 70px;
+            height: 70px;
+            gap:4px;
+        }
+    } 
+
+
+@media (max-width: 1000px) {
+   
+    .menu-btn{
+        display: inline-block;
+        padding: 0;
+        border: 0;
+        height: 33px;
+        width: 45px;
+        background: url(../icons/burger-menu.svg);
+        background-color: transparent;
+        background-size: cover;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        background-position: center;
+    }
+
+    .menu {
+        display: none;
+    }
+    
+    .burger-close {
+        border: 0;
+        display: inline-block;
+        height: 33px;
+        width: 33px;
+        background: url(../icons/burger-close.svg);
+        background-color: transparent;
+        background-size: cover;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        background-position: center;
+        position: absolute;
+        top: 40px;
+        right: 15px;
+        padding: 0;
+    }
+    .logo-img1 {
+        width: 210px;
+        height: 62px;
+    } 
+    .social{
+        width: 60px;
+        height: 60px;
+        gap:7px;
+    } 
+    
+    .logo-img{
+        width: 60px;
+        height: 60px;
+    }
+
+}
+
+
+
+@media (max-width: 700px){
+
+    .logo-img1 {
+        width: 170px;
+        height: 55px;
+    }
+    .social{
+        width: 65px;
+        height: 65px;
+        gap:7px;
+    } 
+    .logo-img{
+        width: 45px;
+        height: 45px;
+    }
+    .social{
+        width: 50px;
+        height: 50px;
+        gap:4px;
+    }
+}
+
+@media (max-width: 600px) {
+    .logo-img1 {
+        width: 150px;
+        height: 45px;
+    }
+   
+
+    .record-btn {
+        font-size: 20px;
+        padding: 15px 60px;
+    }
+    .sidebar{
+        width: 100%;
+        align-items: end;
+        text-align: end;
+        padding-right: 25px;
+        border-radius: 0;
+    }
+    .sidebar ul {
+        padding-right: 25px;
+        font-size: 17px;
+    }
+    .social{
+        width: 45px;
+        height: 45px;
+        gap:4px;
+    }
+  
+}
+@media (max-width: 450px) {
+    .buttons{
+        margin-left:90px;
+               
+    }
+}
+@media (max-width: 380px) {
+    .buttons{
+        margin-left:70px;
+               
+    }
+}
+
+
+     
+
+   
+
+
+  
+
+
+
+
+
+ 
+
+
+
+
+
+
+
