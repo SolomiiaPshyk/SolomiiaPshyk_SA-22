@@ -499,8 +499,8 @@ input{
         display: inline-block;
         padding: 0;
         border: 0;
-        height: 33px;
-        width: 45px;
+        height: 30px;
+        width: 40px;
         background: url(../icons/burger-menu.svg);
         background-color: transparent;
         background-size: cover;
