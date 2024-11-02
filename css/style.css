@@ -7,7 +7,7 @@ body{
     text-align: center;
 }
 header{
-    background-image: url(./photo/start1.jpg);
+    background-image: url(../photo/start1.jpg);
     max-width:auto;
     background-position: center;
     background-size: cover; 
@@ -122,7 +122,7 @@ h,f{
     padding: 45px 0 63px;
 }
 .man {
-    background-image: url(./photo/fonserv.png);
+    background-image: url(../photo/fonserv.png);
     background-position: center;
     height: 100%;
     max-width: 1301px;
@@ -266,7 +266,7 @@ h,f{
     color: #FFFFFF;
     font-size: clamp(20px, 2.08vw ,40px);  
     font-weight: 200;
-    background-image: url(./photo/sales.png);
+    background-image: url(../photo/sales.png);
     max-width:auto;
     text-align: left; 
     background-position: center;
@@ -501,7 +501,7 @@ input{
         border: 0;
         height: 33px;
         width: 45px;
-        background: url(./icons/burger-menu.svg);
+        background: url(../icons/burger-menu.svg);
         background-color: transparent;
         background-size: cover;
         background-repeat: no-repeat;
@@ -518,7 +518,7 @@ input{
         display: inline-block;
         height: 33px;
         width: 33px;
-        background: url(./icons/burger-close.svg);
+        background: url(../icons/burger-close.svg);
         background-color: transparent;
         background-size: cover;
         background-repeat: no-repeat;
